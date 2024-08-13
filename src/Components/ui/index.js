@@ -1,1 +1,2 @@
-export * from './TopMenuEscritorio/TopMenuEscritorio'
+export * from './TopMenuEscritorio'
+export * from './Footer'

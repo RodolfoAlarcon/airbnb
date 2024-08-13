@@ -1,0 +1,30 @@
+a.navbar-brand {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #141619;
+  font-weight: bold;
+}
+
+.linkLoginMobile {
+  display: none !important;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .linkLoginPC {
+    display: none !important;
+  }
+  .linkLoginMobile {
+    display: block !important;
+  }
+}

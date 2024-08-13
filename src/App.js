@@ -1,7 +1,8 @@
-function App() {
-  return (
-    <>hola</>
-  );
-}
+import { TopMenuEscritorio } from "./Components/ui/TopMenuEscritorio";
+import { AppRouter } from "./Router/AppRouter";
 
-export default App;
+export const App = () => {
+  return (
+      <AppRouter />
+  );
+};

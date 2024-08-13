@@ -1,0 +1,58 @@
+.container-footer {
+  background-color: #ececec;
+}
+
+.text-muted {
+  color: black !important;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.circle-blue {
+  background-color: #003366 !important;
+  border-color: #003366 !important;
+}
+
+.circle-blueW {
+  background-color: #6699cc !important;
+  border-color: #6699cc !important;
+}
+
+.btn-circle.btn-lg {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 24px;
+  border-radius: 35px;
+}
+
+.secondContainer {
+  border-top: 1px solid rgb(183, 183, 183);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .centerDivFooter {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
