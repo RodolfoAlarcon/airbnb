@@ -5,6 +5,9 @@
   display: flex;
   align-items: center !important;
 }
+.rounded-6{
+    border-radius: .75rem;
+}
 
 .linkText {
   color: #6699CC !important;

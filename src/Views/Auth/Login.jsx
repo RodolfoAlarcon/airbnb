@@ -6,8 +6,8 @@ export const Login = () => {
     <div className="container-fluid containerLogin">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-6 col-12">
-            <form className="p-4 rounded-3 loginForm">
+          <div className="col-lg-5 col-md-8 col-12">
+            <form className="p-5 rounded-6 loginForm">
               <h2 className="text-center text-light mb-4">Login</h2>
               <div className="mb-3">
                 <input
