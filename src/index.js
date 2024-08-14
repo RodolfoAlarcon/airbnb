@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <TopMenuEscritorio/>
-        <App />
+      <App />
       <Footer/>
     </BrowserRouter>
   </React.StrictMode>

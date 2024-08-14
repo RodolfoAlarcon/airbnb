@@ -4,7 +4,7 @@ import "./css/TopMenuEscritorio.css";
 export const TopMenuEscritorio = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+      <div className="container-fluid collapseMenu">
         <a className="navbar-brand" href="/">
           Logo
         </a>
@@ -42,14 +42,16 @@ export const TopMenuEscritorio = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link active linkLoginMobile">
+              <Link to="/login" className="nav-link active linkLoginMobile">
                 Login
               </Link>
             </li>
           </ul>
         </div>
         <a className="navbar-brand linkLoginPC" href="/">
-          <b>Login</b>
+          <Link to="/login" className="nav-link active">
+            <b>Login</b>
+          </Link>
         </a>
       </div>
     </nav>

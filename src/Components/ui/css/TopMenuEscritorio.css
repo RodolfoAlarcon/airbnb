@@ -1,3 +1,7 @@
+.navbar {
+  height: auto;
+}
+
 a.navbar-brand {
   text-decoration: none;
   color: black;

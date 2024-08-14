@@ -1,5 +1,8 @@
 .container-footer {
   background-color: #ececec;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .text-muted {
@@ -42,12 +45,6 @@
 
 .secondContainer {
   border-top: 1px solid rgb(183, 183, 183);
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 @media screen and (max-width: 992px) {

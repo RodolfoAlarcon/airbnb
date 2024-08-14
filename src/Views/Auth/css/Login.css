@@ -1,0 +1,30 @@
+.containerLogin {
+  padding: 0;
+  margin: 0;
+  min-height: 70vh;
+  display: flex;
+  align-items: center !important;
+}
+
+.linkText {
+  color: #6699CC !important;
+  text-decoration: none !important;
+}
+
+.linkText:hover {
+    color: white !important;
+    text-decoration: none !important;
+  }
+
+.loginForm {
+  background-color: #003366;
+}
+
+.loginInput {
+  background-color: #003366;
+}
+
+.btnForm{
+    background-color: #6699CC;
+    color: white;
+}
